@@ -12,6 +12,7 @@ export default defineConfig({
 			"@": fileURLToPath(new URL("./src", import.meta.url)),
 		},
 	},
+	base: "https://visualyuki.github.io/custom-vue3-datepicker/dist/",
 	//server: {
 	//	watch: {
 	//		usePolling: true,
